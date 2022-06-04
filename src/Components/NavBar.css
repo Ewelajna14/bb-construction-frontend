@@ -5,6 +5,9 @@
     background-color: white ;
     border-bottom: 1px solid lightgray;
     color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .brand-title{
@@ -31,7 +34,7 @@
 }
 
 .navbar-links li:hover {
-    background-color: bisque;
+    background-color: rgb(207, 199, 199);
 }
 
 .toggle-button {
@@ -48,7 +51,7 @@
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: white;
+    background-color: black;
     border-radius: 10px;
 }
 
@@ -77,9 +80,6 @@
         list-style: none;
     }
 
-    .navbar-links-active li:hover {
-        background-color: bisque;
-    }
 
     .link-item {
         padding: .5rem 1rem ;   
