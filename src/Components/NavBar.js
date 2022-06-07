@@ -23,6 +23,7 @@ function NavBar(){
                         <li className='link-item-top'>Basement Remodeling</li>
                     </ul>
                 </div> 
+                <div className='brand-title-top'> Call today 773-XXX-XXXX</div>
                 </nav>
              </Grid>
 

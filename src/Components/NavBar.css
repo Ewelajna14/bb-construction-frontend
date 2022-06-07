@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(236, 229, 229);
     position: sticky;
     top: 0;
     z-index: 1;
@@ -21,6 +22,11 @@
 
 .brand-title{
     font-size: 2.5rem;
+    margin: .5rem;
+}
+
+.brand-title-top{
+    font-size: 1.5rem;
     margin: .5rem;
 }
 
@@ -90,6 +96,11 @@
     }
 
     .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links-top{
         display: none;
         width: 100%;
     }
