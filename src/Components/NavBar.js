@@ -18,8 +18,8 @@ function NavBar(){
              <nav className='navbar-top'>
                 <div className='navbar-links-top'>
                     <ul>
-                        <li className='link-item-top'>Kitchen Remodeling</li>
-                        <li className='link-item-top'>Bathroom Remodeling</li>
+                        <li className='link-item-top'>Kitchen Remodeling | </li>
+                        <li className='link-item-top'>Bathroom Remodeling | </li>
                         <li className='link-item-top'>Basement Remodeling</li>
                     </ul>
                 </div> 

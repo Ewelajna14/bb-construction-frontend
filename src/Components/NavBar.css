@@ -23,6 +23,7 @@
 .brand-title{
     font-size: 2.5rem;
     margin: .5rem;
+    font-weight: bold;
 }
 
 .brand-title-top{
@@ -63,7 +64,7 @@
 .link-item-top {
     text-decoration: none; 
     color: black;
-    padding: 1rem;
+    padding: 0.2rem;
     display: block;
  }
 
