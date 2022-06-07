@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import {Link} from 'react-router-dom'
+import {Grid} from '@mui/material'
 import './NavBar.css'
 
 
@@ -11,7 +12,22 @@ function NavBar(){
 
     return(
         <>
-         <nav className='navbar'>
+             <Grid container spacing = {2}>
+
+             <Grid item xs={12}>
+             <nav className='navbar-top'>
+                <div className='navbar-links-top'>
+                    <ul>
+                        <li className='link-item-top'>Kitchen Remodeling</li>
+                        <li className='link-item-top'>Bathroom Remodeling</li>
+                        <li className='link-item-top'>Basement Remodeling</li>
+                    </ul>
+                </div> 
+                </nav>
+             </Grid>
+
+             <Grid item xs={12}>
+             <nav className='navbar'>
              <div className='brand-title'> BB Construction</div>
                <a href ="#" className='toggle-button' onClick={showList}>
                   <span className='bar'></span>
@@ -37,8 +53,9 @@ function NavBar(){
                    </li>
                </ul>
                </div>
-
-         </nav>
+               </nav>
+               </Grid>
+               </Grid>
         </>
     )
 }
