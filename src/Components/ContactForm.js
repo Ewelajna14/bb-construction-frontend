@@ -18,7 +18,7 @@ function ContactForm(){
                     <label for="message"><i class="fa-solid fa-message"></i>Message</label>
                     <textarea name="message" rows="6"></textarea>
                  </div>
-                 <button type="submit">Send</button>
+                 <button type="submit">SEND</button>
             </form>
     
             </div>
