@@ -7,9 +7,24 @@
 }
 
 .contact-form form {
-    max-width: 600px; 
+    width: 50%;
 }
 
 .form-group{
     margin-bottom: 10px;
+}
+
+.form-group input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid;
+    font-size: 15px;
+    
+}
+
+@media (max-width: 500px) {
+    .contact-form form {
+        width: 90%;
+    }
 }
