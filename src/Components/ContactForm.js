@@ -2,9 +2,10 @@ import './ContactForm.css'
 
 function ContactForm(){
     return(
+      
            <div className='contact-form'>
             <form>
-                <h2>Contact Us</h2>
+            <h2>Contact Us</h2>
                 <div className="form-group">
                     <label for="client_name"><i class="fa-solid fa-user-pen"></i>Your Name</label>
                     <input type="text" name="client_name"></input> 
@@ -19,7 +20,9 @@ function ContactForm(){
                  </div>
                  <button type="submit">Send</button>
             </form>
+    
             </div>
+   
     )
 }
 
