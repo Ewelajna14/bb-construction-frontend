@@ -1,8 +1,10 @@
+import './ContactForm.css'
 
 function ContactForm(){
     return(
-      
+           <div className='contact-form'>
             <form>
+                <h2>Contact Us</h2>
                 <div className="form-group">
                     <input type="text" name="client_name"></input>
                     <label for="client_name">Your Name</label>
@@ -15,8 +17,9 @@ function ContactForm(){
                     <textarea name="message" rows="6"></textarea>
                     <label for="message">Message</label>
                  </div>
+                 <button type="submit">Send</button>
             </form>
-       
+            </div>
     )
 }
 
