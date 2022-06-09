@@ -1,5 +1,7 @@
 import OneService from "./OneService"
 import data from "../data/db.json"
+import {Grid} from '@mui/material'
+
 
 function Services(){
 
@@ -12,9 +14,9 @@ function Services(){
     })
 
     return(
-        <div>
+        <Grid container spacing = {2} sx={{display:'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-start'}}>
            {servicesArray}
-        </div>
+        </Grid>
     )
 }
 
