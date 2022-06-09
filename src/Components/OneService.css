@@ -1,0 +1,10 @@
+.service-wrapper  {
+  margin: 10px;
+}
+
+@media (max-width: 500px) {
+    .service-wrapper img {
+     max-width: 100%;
+    }
+        
+}
