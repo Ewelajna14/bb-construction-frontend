@@ -13,6 +13,7 @@ function App() {
     <div >
       <NavBar/>
       <MainPage/>
+      <Services/>
       <ContactForm/>
       <Map/>
     </div>
