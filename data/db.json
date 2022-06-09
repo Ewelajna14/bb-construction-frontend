@@ -2,6 +2,7 @@
     "services": [
         {
             "title": "plumbing",
+            "img": "images/plumbing.jpg",
             "id": 1
         }
         
