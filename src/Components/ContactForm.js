@@ -1,8 +1,12 @@
 import './ContactForm.css'
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 function ContactForm(){
+
+    const [name, setName] = useState("")
+    const [email, setEmail] =useState("")
+    const [message, setMessage] = useState("")
 
     const form = useRef();
 
@@ -15,6 +19,10 @@ function ContactForm(){
       }, (error) => {
           console.log(error.text);
       });
+
+      setName("")
+      setEmail("")
+      setMessage("")
     }
 
     return (
@@ -23,15 +31,15 @@ function ContactForm(){
         <h2>Contact Us</h2>
          <div className="form-group">
               <label><i class="fa-solid fa-user-pen"></i>Name</label>
-              <input type="text" name="user_name" />
+              <input value={name} onChange={(e)=>setName(e.target.value)}type="text" name="user_name" />
               </div>
                <div className="form-group">
               <label><i class="fa-solid fa-envelope"></i>Email</label>
-              <input type="email" name="user_email" />
+              <input value={email} onChange={(e)=>setEmail(e.target.value)} type="email" name="user_email" />
               </div>
                <div className="form-group">
               <label><i class="fa-solid fa-message"></i>Message</label>
-              <textarea name="message" />
+              <textarea value={message} onChange={(e)=>setMessage(e.target.value)} rows="6" name="message" />
               <input type="submit" value="Send" />
               </div>
             </form> 
