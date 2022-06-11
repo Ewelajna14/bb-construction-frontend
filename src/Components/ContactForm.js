@@ -13,7 +13,7 @@ function ContactForm(){
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_axyll2n', 'template_liies63', form.current, 'aaDbabbbyUyp82JW8')
+    emailjs.sendForm(`${process.env.REACT_APP_SERVICE_KEY}`, `${process.env.REACT_APP_TEMPLATE_KEY}`, form.current, `${process.env.REACT_APP_API_KEY}`)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
