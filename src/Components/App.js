@@ -9,7 +9,7 @@ import Services from './Services';
 
 
 function App() {
-   const data = []
+   
   return (
     <div >
       <NavBar/>
