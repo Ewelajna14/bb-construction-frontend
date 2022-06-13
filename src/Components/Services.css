@@ -1,7 +1,7 @@
 .services-container{
     display:flex;
     flex-direction: row;
-
+    flex-wrap: wrap;
 }
 
 @media (max-width: 500px){
