@@ -1,0 +1,21 @@
+
+.bg-photo{
+    background-image: url("./img/background.jpg");
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: bold;
+}
