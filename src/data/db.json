@@ -9,7 +9,19 @@
         {
             "id": 2,
             "title": "electrician",
-            "img": "images/electrician.jpg"   
+            "img": "images/Electrician.jpg"   
+        },
+
+        {
+            "id": 3,
+            "title": "HVAC",
+            "img": "images/heater.jpg"   
+        },
+
+        {   "id": 4,
+            "title": "remodeling",
+            "img": "images/remodeling.jpg" 
+
         }
         
     ]
