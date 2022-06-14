@@ -13,6 +13,10 @@
     height: auto;
   }
 
+  .service-wrapper:hover{
+    filter: brightness(85%)
+  }
+
   .service-wrapper:before {
     content: '';
     display: block;
