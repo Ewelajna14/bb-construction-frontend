@@ -1,14 +1,44 @@
-.services-container{
+.services-container{  /*parent */
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-@media (max-width: 500px){
+.service-wrapper  {
+    margin: 2px;
+    position: relative;
+    text-align: center;
+    background-color: lightblue;
+    flex: 1 0 auto;
+    height: auto;
+  }
 
-    .services-container{
-        display:flex;
-        flex-direction: column;
-    
-    }
-}
+  .service-wrapper:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+  
+  
+  .service-wrapper h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+@media (max-width: 500px) {
+     .service-wrapper {
+        width: 40%;
+        height: 40%;
+     }
+
+     .service-wrapper:before {
+        padding-top: 50%;
+        
+      }
+          
+  }
+
