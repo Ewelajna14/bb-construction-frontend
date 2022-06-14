@@ -2,13 +2,13 @@
     "services": [
         {    
             "id": 1,
-            "title": "plumbing",
+            "title": "PLUMBING",
             "img": "images/plumbing.jpg"    
         },
 
         {
             "id": 2,
-            "title": "electrician",
+            "title": "ELECTRICIAN",
             "img": "images/Electrician.jpg"   
         },
 
@@ -19,7 +19,7 @@
         },
 
         {   "id": 4,
-            "title": "remodeling",
+            "title": "REMODELING",
             "img": "images/remodeling.jpg" 
 
         }
