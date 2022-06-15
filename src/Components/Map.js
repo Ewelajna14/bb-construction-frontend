@@ -13,12 +13,15 @@ function Map(){
         [41.90, -88.13],
         [41.80, -87.99],
         [41.82, -87.78],
+        [41.98, -87.65],
+        [42.064, -87.68],
+        [42.18, -87.78]
       ]
 
       const redOptions = { color: 'red' }
     return(
         <div>
-            <MapContainer center={[41.9919, -87.8242]} zoom={10} scrollWheelZoom={false}>
+            <MapContainer center={[42.0266, -87.8683]} zoom={10} scrollWheelZoom={false}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
