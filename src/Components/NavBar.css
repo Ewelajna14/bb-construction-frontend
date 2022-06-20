@@ -61,6 +61,14 @@
    font-size: 1.5rem
 }
 
+.link-item-services {
+    text-decoration: none; 
+    color: black;
+    padding: 1rem;
+    display: block;
+    font-size: 1.5rem
+ }
+
 .link-item-top {
     text-decoration: none; 
     color: black;
