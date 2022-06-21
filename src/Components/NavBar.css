@@ -173,6 +173,8 @@
     .navbar-links-active ul{
         width: 100%;
         flex-direction: column;
+        padding: 0;
+        margin: 0.5rem;
     }
 
     .navbar-links-active li {
@@ -182,7 +184,7 @@
 
 
     .link-item {
-        padding: .5rem 1rem ;   
+        padding: .5rem  ;   
     }
 
     .navbar-links-active{
@@ -196,7 +198,21 @@
 
     .dropdown .dropbtn{
         width: 100%;
-        padding: .5rem 1rem ; 
+        padding: .5rem; 
     }
+
+    .dropdown:hover .dropdown-content {
+        width: 100%;
+      }
+
+      .dropdown-content a {
+        text-align: center;
+      }
+
+      .dropdown-content a:hover {
+        background-color: inherit;
+      }
+
+
 
 }
