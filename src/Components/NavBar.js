@@ -43,22 +43,23 @@ function NavBar(){
                        </Link>
                    </li>
                    <li>
-                   <div class="dropdown">
-                            <button class="dropbtn">Services
-                            <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                            </div>
-                    </div>
-                   </li>
-                   <li>
                        <Link to ="/contact" className='link-item'>
                            Contact
                        </Link>
                    </li>
+                   <li>
+                   <div class="dropdown">
+                            <button  class="dropbtn">Services
+                            </button>
+                            <div class="dropdown-content">
+                            <Link to ="/">Plumbing</Link>
+                            <Link to ="/">Electrician</Link>
+                            <Link to ="/">HVAC</Link>
+                            <Link to ="/">Remodeling</Link>
+                            </div>
+                    </div>
+                   </li>
+                  
                </ul>
                </div>
                </nav>
