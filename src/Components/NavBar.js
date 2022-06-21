@@ -43,13 +43,13 @@ function NavBar(){
                        </Link>
                    </li>
                    <li>
-                       <Link to ="/services" className='link-item-services'>
+                       <Link to ="/" className='link-item-services'>
                            Services
                            <div className='services-dropdown-content'>
-                               <Link to ="/">Plumbing</Link>
-                               <Link to ="/">Electrician</Link>
-                               <Link to ="/">HVAC</Link>
-                               <Link to ="/"> Remodeling</Link>
+                               <Link to ="/" className='dropdown-element'>Plumbing</Link>
+                               <Link to ="/" className='dropdown-element'>Electrician</Link>
+                               <Link to ="/" className='dropdown-element'>HVAC</Link>
+                               <Link to ="/" className='dropdown-element'> Remodeling</Link>
                            </div>
                        </Link>
                    </li>
