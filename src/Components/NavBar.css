@@ -163,9 +163,9 @@
 
     .navbar-links-top{
         display: none;
-        width: 100%;
-       
+        width: 100%; 
     }
+
 
     .navbar {
         flex-direction: column;

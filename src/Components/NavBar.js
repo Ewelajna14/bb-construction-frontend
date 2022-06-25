@@ -20,7 +20,7 @@ function NavBar(){
                     </ul>
                 </div> 
                 <div className='brand-title-top'> Call today 773-XXX-XXXX</div>
-                </nav>
+            </nav>
             
 
              <nav className='navbar'>
@@ -53,8 +53,7 @@ function NavBar(){
                             <Link to ="/">Remodeling</Link>
                             </div>
                     </div>
-                   </li>
-                  
+                   </li> 
                </ul>
                </div>
                </nav>

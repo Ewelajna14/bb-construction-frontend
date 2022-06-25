@@ -1,22 +1,18 @@
 
 import '../App.css';
-import {Routes, Route} from "react-router-dom"
+import Home from './Home'
 import NavBar from './NavBar';
-import MainPage from './MainPage';
-import ContactForm from './ContactForm';
-import Map from './Map'
-import Services from './Services';
 import Footer from './Footer'
+import {Routes, Route} from "react-router-dom"
 
 function App() {
    
   return (
     <div >
       <NavBar/>
-      <MainPage/>
-      <Services/>
-      <ContactForm/>
-      <Map/>
+      <Routes>
+       <Route exact path='/' element = {<Home/>} />
+       </Routes>
       <Footer/>
     </div>
   ); 
