@@ -26,7 +26,7 @@ function ContactForm(){
     }
 
     return (
-        <div className='contact-form'>
+        <div className='contact-form'  id="contact">
         <form ref={form} onSubmit={sendEmail}>
         <h2>Contact Us</h2>
          <div className="form-group">

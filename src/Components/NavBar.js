@@ -6,8 +6,32 @@ import './NavBar.css'
 function NavBar(){
 
     const [click, setClick] = useState(false)
-
+   
     const showList = ()=> setClick(!click)
+    
+
+    const menuItems = [
+        {
+            title: "Plumbing",
+            path: "/plumbing",
+            cName: 'dropdown-link'
+        },
+        {
+            title: "Electrician",
+            path: "/electrician",
+            cName: 'dropdown-link'
+        },
+        {
+            title: "HVAC",
+            path: "/hvac",
+            cName: 'dropdown-link'
+        },
+        {
+            title: "Remodeling",
+            path: "/remodeling",
+            cName: 'dropdown-link'
+        }
+    ]
 
     return(
         <>
@@ -33,12 +57,12 @@ function NavBar(){
                <div className={click?'navbar-links-active':'navbar-links'}>
                <ul>
                    <li>
-                       <Link to ="/" className='link-item'>
+                       <Link to ="/" className='link-item' onClick={() => setClick(false)}>
                            Home
                        </Link>
                    </li>
                    <li>
-                       <Link to ="/contact" className='link-item'>
+                       <Link to ="/contact" className='link-item' onClick={() => setClick(false)}>
                            Contact
                        </Link>
                    </li>
@@ -47,10 +71,13 @@ function NavBar(){
                             <button  class="dropbtn">Services
                             </button>
                             <div class="dropdown-content">
-                            <Link to ="/">Plumbing</Link>
-                            <Link to ="/">Electrician</Link>
-                            <Link to ="/">HVAC</Link>
-                            <Link to ="/">Remodeling</Link>
+                                    {menuItems.map((item, index)=>{
+                                        return (
+                                            <li key={index}>
+                                                <Link to={item.path} onClick={() => setClick(false)}>{item.title}</Link>
+                                            </li>
+                                        )
+                                    })}
                             </div>
                     </div>
                    </li> 
