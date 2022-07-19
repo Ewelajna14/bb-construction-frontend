@@ -55,7 +55,7 @@ function NavBar(){
                   <span className='bar'></span>
                </a>
                <div className={click?'navbar-links-active':'navbar-links'}>
-               <ul>
+               <ul className='mobile-links'>
                    <li>
                        <Link to ="/" className='link-item' onClick={() => setClick(false)}>
                            Home

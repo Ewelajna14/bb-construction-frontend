@@ -186,6 +186,7 @@
     .navbar-links-active li {
         text-align: center;
         list-style: none;
+        position: relative;
     }
 
 
@@ -200,6 +201,7 @@
 
     .dropdown {
         width: 100%;
+        
     }
 
     .dropdown .dropbtn{
