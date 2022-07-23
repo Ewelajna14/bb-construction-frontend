@@ -1,6 +1,6 @@
 .main-footer{
     color:white;
-    background-color: black;
+    background-color: #414345;
     padding-top: 3em;
     position: relative;
     bottom: 0;
@@ -10,9 +10,8 @@
 .row{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10em;
+    justify-content: space-around;
+    
 }
 
 @media (max-width: 500px) {
@@ -21,6 +20,6 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        gap: 3em;
+        gap: 2em;
        }
     }
