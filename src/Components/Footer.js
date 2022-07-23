@@ -33,6 +33,12 @@ function Footer(){
                 </ul>
                </div>
              </div>
+             <hr/>
+             <div className='row'>
+              <p className='col-sm'>
+                &copy;{new Date().getFullYear()} BBConstruction INC| All right reserved
+              </p>
+             </div>
           </div>
         </div>
     )
