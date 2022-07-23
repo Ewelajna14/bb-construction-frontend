@@ -1,6 +1,6 @@
 .main-footer{
     color:white;
-    background-color: #414345;
+    background-color: #2d2d2d;
     padding-top: 3em;
     position: relative;
     bottom: 0;
@@ -13,6 +13,27 @@
     justify-content: space-around;
     
 }
+
+.list-unstyled {
+    list-style: none;
+    
+}
+
+.list-unstyled, ul{
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+.col hr {
+    
+}
+
+
+
+
+
+
+
 
 @media (max-width: 500px) {
        .row {
