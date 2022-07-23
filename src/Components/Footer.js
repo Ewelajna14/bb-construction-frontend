@@ -34,7 +34,7 @@ function Footer(){
                </div>
              </div>
              <hr/>
-             <div className='row'>
+             <div className='row-bottom'>
               <p className='col-sm'>
                 &copy;{new Date().getFullYear()} BBConstruction INC| All right reserved
               </p>
