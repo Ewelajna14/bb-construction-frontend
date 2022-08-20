@@ -1,7 +1,7 @@
 function Remodeling_page(){
     return(
         <div>
-
+remodeling
         </div>
     )
 }

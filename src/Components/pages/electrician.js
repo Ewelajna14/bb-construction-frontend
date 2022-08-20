@@ -1,7 +1,7 @@
 function Electrician_page(){
     return(
         <div>
-
+electrician
         </div>
     )
 }
