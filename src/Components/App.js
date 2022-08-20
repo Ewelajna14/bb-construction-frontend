@@ -4,10 +4,10 @@ import Home from './Home'
 import NavBar from './NavBar';
 import Footer from './Footer';
 import {Routes, Route} from "react-router-dom"
-import MainPage from './MainPage';
 import ContactForm from './ContactForm';
-import Map from './Map'
-import Services from './Services';
+import Plumbing_page from './pages/plumbing';
+
+
 
 function App() {
 
@@ -17,6 +17,7 @@ function App() {
       <Routes>
        <Route exact path='/' element = {<Home/>} />
        <Route exact path='contact' element ={<ContactForm/>}/>
+       <Route exact path='plumbing' element ={<Plumbing_page/>}/>
        </Routes>
       <Footer/>
     </div>
@@ -25,4 +26,3 @@ function App() {
 
 export default App;
 
-//   <Route exact path='contact' element ={<ContactForm/>}/>
