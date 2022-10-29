@@ -46,7 +46,6 @@ function NavBar(){
                 <div className='brand-title-top'> Call today 773-XXX-XXXX</div>
             </nav>
             
-
              <nav className='navbar'>
              <div className='brand-title'> BB Construction</div>
                <a href ="#" className='toggle-button' onClick={showList}>

@@ -172,14 +172,11 @@
         align-items: flex-start; 
     }
 
-   
-
     .navbar-links-active ul{
         width: 100%;
         flex-direction: column;
         padding: 0;
         margin: 0.5rem;
-        position: relative;
         height: 100vh;
     }
 
@@ -189,6 +186,10 @@
         position: relative;
     }
 
+    .navbar-links-active div {
+        height: 100vh;
+        position: absolute;
+    }
 
     .link-item {
         padding: .5rem  ;   
