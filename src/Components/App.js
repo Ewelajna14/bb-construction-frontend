@@ -2,6 +2,7 @@
 import '../App.css';
 import Home from './Home'
 import NavBar from './NavBar';
+import NavBar2 from './NavBar2';
 import Footer from './Footer';
 import {Routes, Route} from "react-router-dom"
 import ContactForm from './ContactForm';
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <div>
-      <NavBar/>
+      <NavBar2/>
       <Routes>
        <Route exact path='/' element = {<Home/>} />
        <Route exact path='contact' element ={<ContactForm/>}/>
