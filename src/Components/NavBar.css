@@ -170,6 +170,7 @@
     .navbar {
         flex-direction: column;
         align-items: flex-start; 
+        
     }
 
     .navbar-links-active ul{
@@ -189,6 +190,7 @@
     .navbar-links-active div {
         height: 100vh;
         position: absolute;
+        transition: 0.3s ease-in-out ;
     }
 
     .link-item {
@@ -198,6 +200,7 @@
     .navbar-links-active{
         display: flex;
         width: 100%;
+       
     }
 
     .dropdown {

@@ -2,3 +2,11 @@
     width: 100vw;
     height: 60vh;
 }
+
+@media (max-width: 500px) {
+
+    .leaflet-container{
+        display:none;
+    }
+   
+}

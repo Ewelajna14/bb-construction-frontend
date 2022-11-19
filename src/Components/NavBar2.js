@@ -10,7 +10,7 @@ return(
    <nav>
     <a href="/">LOGO</a>
     <div>
-        <ul id="navbar">
+        <ul id="navbar" className={click? "#navbar active": "#navbar"} onClick={()=>setClick(!click)}>
             <li><a className='active'
             href="/">Home</a></li>
             <li><a 
